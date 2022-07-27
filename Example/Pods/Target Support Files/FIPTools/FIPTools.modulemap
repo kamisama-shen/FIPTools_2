@@ -1,6 +1,0 @@
-framework module FIPTools {
-  umbrella header "FIPTools-umbrella.h"
-
-  export *
-  module * { export * }
-}
