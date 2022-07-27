@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03701DB2EE074C8521EB9ED0443BAEB1 /* Pods-FIPTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325B9371E6DAD6CB36CDA47346B1F1A9 /* Pods-FIPTools_Tests-dummy.m */; };
+		206685A8D80D94CDCCF8AEF5F368FEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		527A3ED7B24D8668623C258BBB6406D7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */; };
+		5FBBBFFFA0D4ABA3F38F96D44FF16BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7254C87A27FFC7F6BEAB4D89028CF775 /* Pods-FIPTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1C5B8E84C75BA34D95FA58B0C8ED5E /* Pods-FIPTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1ADBB46977EB978BB9BBE8E9C750739 /* Pods-FIPTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4550EC06F77E7BFB48FA850C9450FC59 /* Pods-FIPTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1EDA4C0DC54CBB9A75C7C0A46852C0D /* FIPTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */; };
+		D3125A502B37C450B525A949B25C4E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA3F326C04D214EFC2616B59A387A455 /* Pods-FIPTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE896EA91E6A01CE7244A9B8602BF2D /* Pods-FIPTools_Example-dummy.m */; };
+		F4BEB6DCC820E4733249E7C753B48DC8 /* FIPTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1DFB2F9FB7AF9F3C23D090EC1268D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B0737DC31FB75109F1EBAC17DE17F1;
+			remoteInfo = "Pods-FIPTools_Example";
+		};
+		DF9B21B5BBE9B43982190A74BA28DA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1D0D4F3FEB8C97BC340D817A708F3A5;
+			remoteInfo = FIPTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0573F4F5C5FAF300A42669D881DFBD56 /* FIPTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FIPTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.debug.xcconfig; sourceTree = "<group>"; };
+		323EBFF6C9BDB9D48D05B7B831A56C64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		325B9371E6DAD6CB36CDA47346B1F1A9 /* Pods-FIPTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		359A7ACCCE577B41FD532F614B8AD91B /* Pods-FIPTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FIPTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		38AE21356D14F5BDB9CAECFD8DCE5AD3 /* Pods-FIPTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A1C5B8E84C75BA34D95FA58B0C8ED5E /* Pods-FIPTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4550EC06F77E7BFB48FA850C9450FC59 /* Pods-FIPTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		4DE6249C7F08C5DD23F813348A111380 /* Pods-FIPTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EE896EA91E6A01CE7244A9B8602BF2D /* Pods-FIPTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPTools_Example-dummy.m"; sourceTree = "<group>"; };
+		6883DD2F1646A71E0FEDB23546683B26 /* FIPTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FIPTools-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75D19B845A83B6C76B57906B507ED8E5 /* Pods-FIPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		766D8B22178E9E4E0D53B06F7CFFD467 /* Pods-FIPTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CF30698F816CF3B333251BD46D5C330 /* Pods-FIPTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8074ADA21D623B0D804B61AB66E1BB9C /* Pods-FIPTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Example-Info.plist"; sourceTree = "<group>"; };
+		88F328B2B0BECA57D67FF7187B753AF0 /* Pods-FIPTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPTools_Example.modulemap"; sourceTree = "<group>"; };
+		8EB8630B641FAE97506EFC9D859F6CD9 /* Pods-FIPTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FIPTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-umbrella.h"; sourceTree = "<group>"; };
+		AEE46773034E7DA2F820BD05545A1095 /* Pods-FIPTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A22CFE5D73BF3D13D16F4D6E1CAEA8 /* Pods-FIPTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8369BEF672CBD60AFEBF7B8A3004E16 /* FIPTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FIPTools.modulemap; sourceTree = "<group>"; };
+		BD69C702DBBF52E44F4BED2F7097B157 /* Pods-FIPTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FIPTools_Example"; path = Pods_FIPTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FIPTools-dummy.m"; sourceTree = "<group>"; };
+		DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.release.xcconfig; sourceTree = "<group>"; };
+		E10C125F581EDB12D33653DF62275AEA /* Pods-FIPTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F25A8E8AE4F96959131C91041B930A6C /* Pods-FIPTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FIPTools_Tests"; path = Pods_FIPTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5254490703574C3A073CEC8219D7263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F89F7ED41A6C7F0D2CA82C112F80668D /* FIPTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FIPTools; path = FIPTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABF1AC589AF34E1A0A9B6095A43702E /* Pods-FIPTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPTools_Tests.modulemap"; sourceTree = "<group>"; };
+		FC8B7322D929905A93F1799853B89DEA /* FIPTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05092CE08EA65E8F60FA8F8716D304D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206685A8D80D94CDCCF8AEF5F368FEC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D56EAFAB4E776C4530CABC5C659D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBBBFFFA0D4ABA3F38F96D44FF16BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA5B4750A08015D284D4C321B5980B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3125A502B37C450B525A949B25C4E9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165290447E6967FF58BAB949D5502AD5 /* Pods-FIPTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FABF1AC589AF34E1A0A9B6095A43702E /* Pods-FIPTools_Tests.modulemap */,
+				4DE6249C7F08C5DD23F813348A111380 /* Pods-FIPTools_Tests-acknowledgements.markdown */,
+				B4A22CFE5D73BF3D13D16F4D6E1CAEA8 /* Pods-FIPTools_Tests-acknowledgements.plist */,
+				325B9371E6DAD6CB36CDA47346B1F1A9 /* Pods-FIPTools_Tests-dummy.m */,
+				8EB8630B641FAE97506EFC9D859F6CD9 /* Pods-FIPTools_Tests-Info.plist */,
+				3A1C5B8E84C75BA34D95FA58B0C8ED5E /* Pods-FIPTools_Tests-umbrella.h */,
+				AEE46773034E7DA2F820BD05545A1095 /* Pods-FIPTools_Tests.debug.xcconfig */,
+				7CF30698F816CF3B333251BD46D5C330 /* Pods-FIPTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-FIPTools_Tests";
+			path = "Target Support Files/Pods-FIPTools_Tests";
+			sourceTree = "<group>";
+		};
+		238AC08935C38D66E3D40DC6B2C3B4B2 /* FIPTools */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */,
+				770573B2B75BAD2AD3AE4AA5341794C1 /* Pod */,
+				F1B77481B52DD98F6303E4A2E658DE46 /* Support Files */,
+			);
+			name = FIPTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B9445CABE85C91D0688E186A85DCB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89F7ED41A6C7F0D2CA82C112F80668D /* FIPTools */,
+				BD69C702DBBF52E44F4BED2F7097B157 /* Pods-FIPTools_Example */,
+				F25A8E8AE4F96959131C91041B930A6C /* Pods-FIPTools_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		770573B2B75BAD2AD3AE4AA5341794C1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0573F4F5C5FAF300A42669D881DFBD56 /* FIPTools.podspec */,
+				F5254490703574C3A073CEC8219D7263 /* LICENSE */,
+				323EBFF6C9BDB9D48D05B7B831A56C64 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A329CB1065EA7D65C593EAE76C6A9540 /* Pods-FIPTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88F328B2B0BECA57D67FF7187B753AF0 /* Pods-FIPTools_Example.modulemap */,
+				38AE21356D14F5BDB9CAECFD8DCE5AD3 /* Pods-FIPTools_Example-acknowledgements.markdown */,
+				766D8B22178E9E4E0D53B06F7CFFD467 /* Pods-FIPTools_Example-acknowledgements.plist */,
+				4EE896EA91E6A01CE7244A9B8602BF2D /* Pods-FIPTools_Example-dummy.m */,
+				359A7ACCCE577B41FD532F614B8AD91B /* Pods-FIPTools_Example-frameworks.sh */,
+				8074ADA21D623B0D804B61AB66E1BB9C /* Pods-FIPTools_Example-Info.plist */,
+				4550EC06F77E7BFB48FA850C9450FC59 /* Pods-FIPTools_Example-umbrella.h */,
+				75D19B845A83B6C76B57906B507ED8E5 /* Pods-FIPTools_Example.debug.xcconfig */,
+				E10C125F581EDB12D33653DF62275AEA /* Pods-FIPTools_Example.release.xcconfig */,
+			);
+			name = "Pods-FIPTools_Example";
+			path = "Target Support Files/Pods-FIPTools_Example";
+			sourceTree = "<group>";
+		};
+		ABFAD9CF5AC49F0B9040610F183A4E54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A329CB1065EA7D65C593EAE76C6A9540 /* Pods-FIPTools_Example */,
+				165290447E6967FF58BAB949D5502AD5 /* Pods-FIPTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D8E227ABA865554C901D02AC59FD3CBD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2B9445CABE85C91D0688E186A85DCB47 /* Products */,
+				ABFAD9CF5AC49F0B9040610F183A4E54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E227ABA865554C901D02AC59FD3CBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				238AC08935C38D66E3D40DC6B2C3B4B2 /* FIPTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F1B77481B52DD98F6303E4A2E658DE46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8369BEF672CBD60AFEBF7B8A3004E16 /* FIPTools.modulemap */,
+				CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */,
+				6883DD2F1646A71E0FEDB23546683B26 /* FIPTools-Info.plist */,
+				FC8B7322D929905A93F1799853B89DEA /* FIPTools-prefix.pch */,
+				AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */,
+				113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */,
+				DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FIPTools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F0C899534D7B1E5F626912ECCAA1CC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ADBB46977EB978BB9BBE8E9C750739 /* Pods-FIPTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8403E6780E68FD25BB8A2216D5B3363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BEB6DCC820E4733249E7C753B48DC8 /* FIPTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC40ECE70F87F997C2B1D709021B8283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7254C87A27FFC7F6BEAB4D89028CF775 /* Pods-FIPTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96B0737DC31FB75109F1EBAC17DE17F1 /* Pods-FIPTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9755F605AAF4588B9113EF9B83D68549 /* Build configuration list for PBXNativeTarget "Pods-FIPTools_Example" */;
+			buildPhases = (
+				7F0C899534D7B1E5F626912ECCAA1CC4 /* Headers */,
+				6D08EFBB263CDEB604F9B4777B832127 /* Sources */,
+				93D56EAFAB4E776C4530CABC5C659D19 /* Frameworks */,
+				AB499FA9A61F4778D0BF14EAE28C0DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE8A7C89443C3B114BFC6B965B978B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FIPTools_Example";
+			productName = Pods_FIPTools_Example;
+			productReference = BD69C702DBBF52E44F4BED2F7097B157 /* Pods-FIPTools_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A09C06B9EBD25861D03CF45F6EEA0B8F /* Pods-FIPTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE6F106925BCFDEBC6CA7F59EA252E2 /* Build configuration list for PBXNativeTarget "Pods-FIPTools_Tests" */;
+			buildPhases = (
+				CC40ECE70F87F997C2B1D709021B8283 /* Headers */,
+				A6D6BC138DD4F08F17D0F314988C666B /* Sources */,
+				05092CE08EA65E8F60FA8F8716D304D8 /* Frameworks */,
+				869C52403016FC3003C2C18E0A019A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6A64E1D27AA7E26B17FAD726500382 /* PBXTargetDependency */,
+			);
+			name = "Pods-FIPTools_Tests";
+			productName = Pods_FIPTools_Tests;
+			productReference = F25A8E8AE4F96959131C91041B930A6C /* Pods-FIPTools_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1D0D4F3FEB8C97BC340D817A708F3A5 /* FIPTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9E48871AB74AF38DFAC01E0849B9E3 /* Build configuration list for PBXNativeTarget "FIPTools" */;
+			buildPhases = (
+				C8403E6780E68FD25BB8A2216D5B3363 /* Headers */,
+				3EA3F5E212586C08FD3B26936F2517B4 /* Sources */,
+				CDA5B4750A08015D284D4C321B5980B8 /* Frameworks */,
+				067B2E39C02BC93C000924EFC262CE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIPTools;
+			productName = FIPTools;
+			productReference = F89F7ED41A6C7F0D2CA82C112F80668D /* FIPTools */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2B9445CABE85C91D0688E186A85DCB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D0D4F3FEB8C97BC340D817A708F3A5 /* FIPTools */,
+				96B0737DC31FB75109F1EBAC17DE17F1 /* Pods-FIPTools_Example */,
+				A09C06B9EBD25861D03CF45F6EEA0B8F /* Pods-FIPTools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067B2E39C02BC93C000924EFC262CE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869C52403016FC3003C2C18E0A019A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB499FA9A61F4778D0BF14EAE28C0DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA3F5E212586C08FD3B26936F2517B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EDA4C0DC54CBB9A75C7C0A46852C0D /* FIPTools-dummy.m in Sources */,
+				527A3ED7B24D8668623C258BBB6406D7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D08EFBB263CDEB604F9B4777B832127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F326C04D214EFC2616B59A387A455 /* Pods-FIPTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6BC138DD4F08F17D0F314988C666B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03701DB2EE074C8521EB9ED0443BAEB1 /* Pods-FIPTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE8A7C89443C3B114BFC6B965B978B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FIPTools;
+			target = D1D0D4F3FEB8C97BC340D817A708F3A5 /* FIPTools */;
+			targetProxy = DF9B21B5BBE9B43982190A74BA28DA70 /* PBXContainerItemProxy */;
+		};
+		5A6A64E1D27AA7E26B17FAD726500382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FIPTools_Example";
+			target = 96B0737DC31FB75109F1EBAC17DE17F1 /* Pods-FIPTools_Example */;
+			targetProxy = 0C1DFB2F9FB7AF9F3C23D090EC1268D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189F441E1823E6B4D1ABC0B5E0CC97C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE46773034E7DA2F820BD05545A1095 /* Pods-FIPTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPTools_Tests/Pods-FIPTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPTools_Tests/Pods-FIPTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B6C04C6426CD0CF35C5471B399739A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10C125F581EDB12D33653DF62275AEA /* Pods-FIPTools_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPTools_Example/Pods-FIPTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPTools_Example/Pods-FIPTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FB8BD7B783864CB410283E2CD04CFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D19B845A83B6C76B57906B507ED8E5 /* Pods-FIPTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPTools_Example/Pods-FIPTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPTools_Example/Pods-FIPTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B2A4C1918EC81A14D89B1C66ABFD073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
+				PRODUCT_MODULE_NAME = FIPTools;
+				PRODUCT_NAME = FIPTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5F122F60041C51C817A9B26142D94BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
+				PRODUCT_MODULE_NAME = FIPTools;
+				PRODUCT_NAME = FIPTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2DCAE87D0A1E4337D9905BC587C1550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF30698F816CF3B333251BD46D5C330 /* Pods-FIPTools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPTools_Tests/Pods-FIPTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPTools_Tests/Pods-FIPTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE6F106925BCFDEBC6CA7F59EA252E2 /* Build configuration list for PBXNativeTarget "Pods-FIPTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F441E1823E6B4D1ABC0B5E0CC97C0 /* Debug */,
+				C2DCAE87D0A1E4337D9905BC587C1550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9E48871AB74AF38DFAC01E0849B9E3 /* Build configuration list for PBXNativeTarget "FIPTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2A4C1918EC81A14D89B1C66ABFD073 /* Debug */,
+				A5F122F60041C51C817A9B26142D94BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9755F605AAF4588B9113EF9B83D68549 /* Build configuration list for PBXNativeTarget "Pods-FIPTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB8BD7B783864CB410283E2CD04CFE5 /* Debug */,
+				3B6C04C6426CD0CF35C5471B399739A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
