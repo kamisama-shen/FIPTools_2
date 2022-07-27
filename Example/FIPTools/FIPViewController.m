@@ -7,7 +7,7 @@
 //
 
 #import "FIPViewController.h"
-
+#import <FIPTools/FIPTools.h>
 @interface FIPViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *str = [@"11" md5];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

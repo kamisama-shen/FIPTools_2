@@ -1,5 +1,5 @@
 PODS:
-  - FIPTools (0.1.0)
+  - FIPTools (1.0.6)
 
 DEPENDENCIES:
   - FIPTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FIPTools: 0d0ba5799c06d9810487055fc5f1aaae2095b030
+  FIPTools: 8e60a1f933a14755abad25f5c821d06adb6947ba
 
 PODFILE CHECKSUM: 4413d4583f6f94b0459846993c97ef0538db265b
 

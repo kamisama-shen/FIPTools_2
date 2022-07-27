@@ -48,6 +48,8 @@ FOUNDATION_EXPORT const unsigned char FIPToolsVersionString[];
 
 #import <FIPTools/UILabel+VExtension.h>
 
+#import <FIPTools/NSString+MD5.h>
+
 #import <FIPTools/UISegmentedControl+UIStyle.h>
 
 #import <FIPTools/Aspects.h>
